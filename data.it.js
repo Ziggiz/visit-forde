@@ -36,6 +36,48 @@ window.PLACES_IT = {
     facts: [["Tempo", "30–60 min · pianeggiante, asfaltato, adatto ai passeggini"]]
   },
 
+  "vest-sauna": {
+    name: "Vest Sauna",
+    kicker: "Sauna sul fiume",
+    distance: "A piedi dal centro",
+    blurb:
+      "Una sauna vera proprio sulla riva della Jølstra, in pieno centro: legno di pioppo trattato a caldo, stufa da 16 kW, vetrate a specchio sul fiume, minibar e due spogliatoi — e quindici metri d'acqua quando serve rinfrescarsi. Aperta tutto l'anno, e il modo più semplice di chiudere una giornata passata a camminare sotto la pioggia.",
+    facts: [
+      ["Come arrivare", "Seguite il sentiero lungo la Jølstra da Bohus, oppure entrate da Øyrane. In centro a Førde, senza auto."],
+      ["Prenotazioni", "Online su vestsauna.no · +47 414 29 404 · post@vestsauna.no"],
+      ["Da portare", "Costume, asciugamano e ciabatte. Il bagno freddo nel fiume è sotto la propria responsabilità."]
+    ]
+  },
+
+  "naustdal-sauna": {
+    name: "Naustdal Sauna",
+    kicker: "Sauna sul fiordo",
+    distance: "~13 km · 15 min",
+    blurb:
+      "Sulla riva di Naustdal, affacciata direttamente sul fiordo. È sempre già calda, intorno ai 90°C, all'orario prenotato, rivestita con 640 kg di sale himalayano, e ha una scaletta che scende in mare per il bagno freddo. Abbinatela alla salita al Kletten e da quindici minuti di auto ricavate mezza giornata.",
+    facts: [
+      ["Indirizzo", "Fjæra 17, Naustdal — sulla spiaggia, in riva al fiordo"],
+      ["Orari", "Tutti i giorni 06:00–23:00, tutto l'anno. Turni da un'ora e mezza."],
+      ["Prezzo", "Turno condiviso 249 NOK a persona · sauna intera 1.199 NOK · da 1 a 8 persone"],
+      ["Prenotazioni", "Online: si paga con carta o Vipps e si riceve il codice della porta. Non c'è personale sul posto."]
+    ]
+  },
+
+  "jolstraholmen-sauna": {
+    name: "La sauna sul fiume di Jølstraholmen",
+    kicker: "Sauna sulle rapide",
+    distance: "~25 km · 20 min",
+    blurb:
+      "Una piccola sauna sulla riva del fiume a Jølstraholmen, a Vassenden, con una pozza naturale subito fuori dalla porta in cui tuffarsi tra un giro e l'altro. La può prenotare chiunque — non serve alloggiare al campeggio — quindi è una bella sosta tornando da Astruptunet.",
+    facts: [
+      ["Prezzo", "150 NOK a persona, oppure 500 NOK per l'intera sauna — un'ora"],
+      ["Capienza", "Massimo 6 persone · dai 18 anni"],
+      ["Orari", "Tutti i giorni 08:00–22:00, tutto l'anno"],
+      ["Prenotazioni", "Online almeno 2 ore prima, oppure per telefono un'ora prima"],
+      ["Nota", "Presentatevi già in costume: i turni sono uno dietro l'altro. Doccia e servizi costano 50 NOK in più."]
+    ]
+  },
+
   "sunnfjord-museum": {
     kicker: "Museo all'aperto",
     distance: "~5 km · 7 min",

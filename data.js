@@ -54,6 +54,27 @@ window.PLACES = [
     links: []
   },
 
+  {
+    id: "vest-sauna",
+    name: "Vest Sauna",
+    kicker: "Sauna on the river",
+    group: "walk",
+    minutes: 0,
+    distance: "Walk from the centre",
+    maps: "Vest Sauna, Førde",
+    blurb:
+      "A proper sauna right on the bank of the Jølstra in the middle of town: heat-treated aspen, a 16 kW stove, mirror windows onto the river, minibar and two changing rooms — and fifteen metres to the water when you need to cool off. Open all year, and the easiest way to end a day of walking in the rain.",
+    facts: [
+      ["Getting there", "Follow the river path along the Jølstra from Bohus, or come in from Øyrane. Central Førde, no car needed."],
+      ["Booking", "Online at vestsauna.no · +47 414 29 404 · post@vestsauna.no"],
+      ["Bring", "Swimwear, towel and sandals. Cold-dipping in the river is at your own risk."]
+    ],
+    links: [
+      ["vestsauna.no", "https://vestsauna.no/"],
+      ["badstukart.no", "https://badstukart.no/forde/vest-sauna/"]
+    ]
+  },
+
   /* ---------- Under 20 minutes by car ---------- */
   {
     id: "sunnfjord-museum",
@@ -103,6 +124,25 @@ window.PLACES = [
       ["War history", "Naustdal and the fjord mouth carry occupation-era remains and there is local information about the war at the site — the details of the signage are worth checking with the tourist information in Førde before you drive out."]
     ],
     links: []
+  },
+
+  {
+    id: "naustdal-sauna",
+    name: "Naustdal Sauna",
+    kicker: "Sauna on the fjord",
+    group: "near",
+    minutes: 15,
+    distance: "~13 km · 15 min",
+    maps: "Fjæra 17, 6817 Naustdal",
+    blurb:
+      "Down on the shore at Naustdal, looking straight out at the fjord. Always pre-heated to around 90°C for your slot, lined with 640 kg of Himalayan salt, and with steps into the sea for the cold plunge. Pair it with the climb up Kletten and you have a full half-day out of a fifteen-minute drive.",
+    facts: [
+      ["Address", "Fjæra 17, Naustdal — on the beach by the fjord"],
+      ["Open", "Every day 06:00–23:00, all year. Sessions are 1.5 hours."],
+      ["Price", "Shared session 249 NOK per person · the whole sauna 1,199 NOK · 1–8 people"],
+      ["Booking", "Online — pay by card or Vipps and you get a door code. No staff on site."]
+    ],
+    links: [["vestfjordsauna.no", "https://vestfjordsauna.no/en/naustdal"]]
   },
 
   /* ---------- Day out: 40–60 minutes ---------- */
@@ -173,6 +213,26 @@ window.PLACES = [
     facts: [["Tip", "Combine with Astruptunet on the south shore."]],
     links: []
   },
+  {
+    id: "jolstraholmen-sauna",
+    name: "The river sauna at Jølstraholmen",
+    kicker: "Sauna by the rapids",
+    group: "day",
+    minutes: 20,
+    distance: "~25 km · 20 min",
+    maps: "Jølstraholmen, Vassenden",
+    blurb:
+      "A small sauna on the riverbank at Jølstraholmen in Vassenden, with a natural pool in the river just outside the door to drop into between rounds. Anyone can book it — you do not have to be staying at the campsite — which makes it a good stop on the way back from Astruptunet.",
+    facts: [
+      ["Price", "150 NOK per person, or 500 NOK for the whole sauna — one hour"],
+      ["Capacity", "Max 6 people · 18 and over"],
+      ["Open", "Every day 08:00–22:00, all year"],
+      ["Booking", "Online at least 2 hours ahead, or ring them an hour ahead"],
+      ["Note", "Turn up changed and ready in swimwear — slots run back to back. Shower and toilet access costs 50 NOK extra."]
+    ],
+    links: [["jolstraholmen.no", "https://jolstraholmen.no/en/activites_post/badstua/"]]
+  },
+
   {
     id: "floro",
     name: "Florø",

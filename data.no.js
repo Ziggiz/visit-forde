@@ -36,6 +36,48 @@ window.PLACES_NO = {
     facts: [["Tid", "30–60 min · flatt, asfaltert, greit med barnevogn"]]
   },
 
+  "vest-sauna": {
+    name: "Vest Sauna",
+    kicker: "Badstue ved elva",
+    distance: "Gåavstand fra sentrum",
+    blurb:
+      "En skikkelig badstue rett på elvebredden ved Jølstra midt i byen: varmebehandlet osp, 16 kW ovn, speilvinduer ut mot elva, minibar og to garderober — og femten meter ned til vannet når du trenger å kjøle deg ned. Åpen hele året, og den enkleste måten å avslutte en dag i regnvær på.",
+    facts: [
+      ["Dit", "Følg elvestien langs Jølstra fra Bohus, eller kom inn fra Øyrane. Midt i Førde, ingen bil nødvendig."],
+      ["Booking", "På nett hos vestsauna.no · 414 29 404 · post@vestsauna.no"],
+      ["Ta med", "Badetøy, håndkle og badesko. Bading i elva skjer på eget ansvar."]
+    ]
+  },
+
+  "naustdal-sauna": {
+    name: "Naustdal Sauna",
+    kicker: "Badstue ved fjorden",
+    distance: "~13 km · 15 min",
+    blurb:
+      "Nede i fjæra i Naustdal, med utsikt rett ut fjorden. Den er alltid forvarmet til rundt 90 grader til tida du har booka, kledd med 640 kg himalayasalt, og har trapp rett ned i sjøen for kaldbadet. Kombiner med turen opp Kletten, så får du en halv dag ut av femten minutters kjøring.",
+    facts: [
+      ["Adresse", "Fjæra 17, Naustdal — nede ved stranda"],
+      ["Åpent", "Hver dag 06:00–23:00, hele året. Økter på 1,5 time."],
+      ["Pris", "Delt økt 249 kr per person · hele badstua 1199 kr · 1–8 personer"],
+      ["Booking", "På nett — betal med kort eller Vipps og få dørkode. Ingen betjening på stedet."]
+    ]
+  },
+
+  "jolstraholmen-sauna": {
+    name: "Elvebadstua på Jølstraholmen",
+    kicker: "Badstue ved stryket",
+    distance: "~25 km · 20 min",
+    blurb:
+      "En liten badstue på elvebredden på Jølstraholmen i Vassenden, med en naturlig kulp rett utenfor døra å hoppe i mellom rundene. Alle kan booke den — du trenger ikke bo på campingen — så den passer fint på veien hjem fra Astruptunet.",
+    facts: [
+      ["Pris", "150 kr per person, eller 500 kr for hele badstua — én time"],
+      ["Plass", "Maks 6 personer · 18 år og oppover"],
+      ["Åpent", "Hver dag 08:00–22:00, hele året"],
+      ["Booking", "På nett minst 2 timer før, eller ring en time før"],
+      ["NB", "Møt opp ferdig skifta i badetøy — øktene går rett etter hverandre. Dusj og toalett koster 50 kr ekstra."]
+    ]
+  },
+
   "sunnfjord-museum": {
     kicker: "Friluftsmuseum",
     distance: "~5 km · 7 min",
