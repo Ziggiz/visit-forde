@@ -4,20 +4,27 @@ A small static web app for English-speaking visitors staying in Førde, Sunnfjor
 
 **Live:** https://ziggiz.github.io/visit-forde/
 
-- Search across everything (waterfall, glacier, dinner…)
+- **Three languages** — English, Italiano, Norsk. Switch in the top right; the choice is remembered, and `?lang=it` / `?lang=no` links straight to one
+- Search across everything, in whichever language is showing (waterfall, cascata, foss…)
 - Filter by distance: on foot · under 20 min · 40–60 min · full-day trip · food · practical
 - Every entry has an "Open in Maps" link that works on a phone
 - Light and dark theme follow the phone's setting
-- No build step, no dependencies, no tracking — three files and a stylesheet
+- No build step, no dependencies, no tracking
 
 ## Files
 
 | File | What it is |
 | --- | --- |
 | `index.html` | Page shell: masthead, search box, filter bar |
-| `data.js` | **All the content.** One object per place — this is the only file you normally edit |
-| `app.js` | Renders the cards, handles search and filtering |
+| `data.js` | **All the content, in English.** One object per place |
+| `data.it.js` | Italian overrides, keyed by the same `id` |
+| `data.no.js` | Norwegian overrides, keyed by the same `id` |
+| `i18n.js` | Interface strings and the list of available languages |
+| `app.js` | Renders the cards, handles language, search and filtering |
 | `styles.css` | Design tokens and layout, light + dark |
+
+Anything missing from a translation file falls back to the English text, so a
+half-finished translation still renders a complete page.
 
 ## Slik legger du til eller endrar ein stad
 
@@ -41,7 +48,25 @@ Alt innhald ligg i `data.js`. Kopier ei blokk og fyll ut:
 }
 ```
 
-Gruppene er definerte øvst i `app.js` (`GROUPS`) — endrar du rekkjefølgja der, endrar du rekkjefølgja på sida.
+Gruppene er definerte øvst i `app.js` (`GROUP_ORDER`) — endrar du rekkjefølgja der, endrar du rekkjefølgja på sida. Namna på gruppene ligg i `i18n.js`, eitt sett per språk.
+
+### Omsetjing
+
+Legg inn same `id` i `data.it.js` eller `data.no.js` og berre dei felta du vil byte ut:
+
+```js
+huldefossen: {
+  name: "Huldefossen på Mo",   // valfritt — sløyf det når namnet er eit eigennamn
+  kicker: "Foss",
+  distance: "~10 km · 12 min",
+  blurb: "…",
+  facts: [["Dit", "…"]]
+}
+```
+
+Vil du ha eit fjerde språk: legg det til i `LANGS` og `UI` i `i18n.js`, lag ei
+`data.xx.js` med same mønster, registrer ho i `OVERRIDES` øvst i `app.js` og
+legg til `<script src="data.xx.js"></script>` i `index.html`.
 
 ## Running it locally
 

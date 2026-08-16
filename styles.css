@@ -97,6 +97,33 @@ a { color: var(--accent-ink); text-underline-offset: 3px; }
   gap: 12px;
 }
 
+.masthead-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.langs { display: flex; gap: 4px; }
+
+.langs button {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  letter-spacing: .08em;
+  padding: 5px 9px;
+  border-radius: 2px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink-2);
+  cursor: pointer;
+}
+
+.langs button[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+}
+
 .eyebrow {
   margin: 0;
   font-family: var(--mono);

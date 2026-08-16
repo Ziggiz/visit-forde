@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Visit Førde — what to see and where to eat in Sunnfjord</title>
-  <meta name="description" content="A short guide to sights, drives and restaurants around Førde in Sunnfjord, western Norway — sorted by how far you have to drive.">
+  <meta name="description" content="A short guide to sights, drives and restaurants around Førde in Sunnfjord, western Norway — sorted by how far you have to drive. English, Italian and Norwegian.">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#1b5f56">
   <link rel="stylesheet" href="styles.css">
@@ -14,9 +14,12 @@
   <div class="wrap">
 
     <header class="masthead">
-      <p class="eyebrow">Sunnfjord · Western Norway</p>
-      <h1>Visit Førde</h1>
-      <p class="lede">Everything worth the drive from Førde, sorted by how far you have to go — from what you can reach on foot to the glacier and the cable car that need a whole day.</p>
+      <div class="masthead-top">
+        <p class="eyebrow" id="eyebrow">Sunnfjord · Western Norway</p>
+        <nav class="langs" id="langs" aria-label="Language"></nav>
+      </div>
+      <h1 id="title">Visit Førde</h1>
+      <p class="lede" id="lede">Everything worth the drive from Førde, sorted by how far you have to go — from what you can reach on foot to the glacier and the cable car that need a whole day.</p>
     </header>
 
     <div class="controls">
@@ -33,13 +36,16 @@
     <main id="results"></main>
 
     <footer class="colophon">
-      <p>Compiled for English-speaking visitors staying in Førde. Distances are approximate, by road from the town centre. Hours and prices were checked for the 2026 summer season — ring ahead for anything you are driving more than half an hour to reach.</p>
-      <p>Tourist information: <a href="https://www.fjordnorway.com/en/attractions/forde">fjordnorway.com</a> · Forecast: <a href="https://www.yr.no/en">yr.no</a></p>
+      <p id="footer-note">Compiled for visitors staying in Førde. Distances are approximate, by road from the town centre. Hours and prices were checked for the 2026 summer season — ring ahead for anything you are driving more than half an hour to reach.</p>
+      <p id="footer-links">Tourist information: <a href="https://www.fjordnorway.com/en/attractions/forde">fjordnorway.com</a> · Forecast: <a href="https://www.yr.no/en">yr.no</a></p>
     </footer>
 
   </div>
 
+  <script src="i18n.js"></script>
   <script src="data.js"></script>
+  <script src="data.it.js"></script>
+  <script src="data.no.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
