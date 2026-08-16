@@ -102,10 +102,11 @@ window.PLACES = [
     distance: "~10 km · 12 min",
     maps: "Huldefossen, Førde",
     blurb:
-      "A 90-metre curtain of water and one of the most photographed falls in Fjord Norway — for a five-minute walk. Park at Mo by the agricultural college, cross the wooden bridge and follow the river up. You can walk right into the spray, which is the point; it is also why the last stretch is muddy and the rocks are slick.",
+      "The one everybody should make time for. A 90-metre curtain of water in three steps, and one of the most photographed falls in Fjord Norway — for about five minutes on foot. Drive right up to the farms at Mo, park there, cross the wooden bridge and follow the river up. You can walk into the spray, which is the point; it is also why the last stretch is muddy and the rocks are slick.",
     facts: [
-      ["Getting there", "E39/Rv5 toward Skei, ~10 km, follow the signs at Moskog. Free parking, then ~500 m on foot."],
-      ["Bring", "Waterproof shoes. Free, always open. Stay on the path and out of the water below the fall."]
+      ["Getting there", "E39/Rv5 toward Skei, ~10 km, follow the signs at Moskog. Drive all the way up to the farms and the agricultural college and park there — free — then it is only a few minutes to the fall."],
+      ["Best for", "Anyone. No climbing, no entrance fee, prams get most of the way, and it is just as good in rain — better, really."],
+      ["Bring", "Waterproof shoes. Always open. Stay on the path and out of the water below the fall."]
     ],
     links: [["Fjord Norway", "https://www.fjordnorway.com/en/see-and-do/huldefossen-waterfall"]]
   },

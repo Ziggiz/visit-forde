@@ -95,10 +95,11 @@ window.PLACES_IT = {
     kicker: "Cascata",
     distance: "~10 km · 12 min",
     blurb:
-      "Un velo d'acqua di 90 metri, tra le cascate più fotografate della Norvegia dei fiordi — al prezzo di cinque minuti a piedi. Si parcheggia a Mo, vicino all'istituto agrario, si attraversa il ponte di legno e si risale il fiume. Ci si può avvicinare fin dentro gli spruzzi: è il bello della cascata, ed è anche il motivo per cui l'ultimo tratto è fangoso e le rocce scivolose.",
+      "Quella per cui vale la pena fermarsi, sempre. Un velo d'acqua di 90 metri su tre salti, tra le cascate più fotografate della Norvegia dei fiordi — al prezzo di cinque minuti a piedi. Si sale in auto fino alle fattorie di Mo, si parcheggia lì, si attraversa il ponte di legno e si risale il fiume. Ci si può avvicinare fin dentro gli spruzzi: è il bello della cascata, ed è anche il motivo per cui l'ultimo tratto è fangoso e le rocce scivolose.",
     facts: [
-      ["Come arrivare", "E39/Rv5 verso Skei, ~10 km, seguire le indicazioni a Moskog. Parcheggio gratuito, poi ~500 m a piedi."],
-      ["Da portare", "Scarpe impermeabili. Ingresso libero, sempre aperta. Restate sul sentiero e fuori dall'acqua sotto la cascata."]
+      ["Come arrivare", "E39/Rv5 verso Skei, ~10 km, seguire le indicazioni a Moskog. Salite in auto fino alle fattorie e all'istituto agrario e parcheggiate lì — gratis — poi mancano solo pochi minuti."],
+      ["Adatta a", "Chiunque. Niente salite, niente biglietto, il passeggino arriva quasi fino in fondo, e con la pioggia è ancora più bella."],
+      ["Da portare", "Scarpe impermeabili. Sempre aperta. Restate sul sentiero e fuori dall'acqua sotto la cascata."]
     ]
   },
 

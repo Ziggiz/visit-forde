@@ -9,6 +9,8 @@ A small static web app for English-speaking visitors staying in Førde, Sunnfjor
 - Filter by distance: on foot · under 20 min · 40–60 min · full-day trip · food · practical
 - Every entry has an "Open in Maps" link that works on a phone
 - Light and dark theme follow the phone's setting
+- **Add to home screen** — installs as an app, and a service worker keeps a full
+  offline copy, so it still works in the tunnels and up the valleys where there is no signal
 - No build step, no dependencies, no tracking
 
 ## Files
@@ -78,9 +80,19 @@ python3 -m http.server 8000
 
 Then go to http://localhost:8000.
 
+## On a phone
+
+Open https://ziggiz.github.io/visit-forde/ and add it to the home screen —
+"Share → Add to Home Screen" on iPhone, "⋮ → Install app" on Android. It then
+opens full-screen with its own icon, and works with the phone in flight mode.
+
 ## Deploying
 
 Pushing to `main` publishes to GitHub Pages automatically.
+
+**Bump `CACHE` in `sw.js` whenever you change the content** (`visit-forde-v1` →
+`-v2`, and so on). Phones that already installed the guide keep serving the old
+cache until the name changes.
 
 ## Note on accuracy
 

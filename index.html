@@ -9,6 +9,10 @@
   <meta name="theme-color" content="#1b5f56">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏔️</text></svg>">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Visit Førde">
 </head>
 <body>
   <div class="wrap">
@@ -47,5 +51,11 @@
   <script src="data.it.js"></script>
   <script src="data.no.js"></script>
   <script src="app.js"></script>
+  <script>
+    // Offline copy, so the guide still works in the tunnels and up the valleys.
+    if ("serviceWorker" in navigator) {
+      addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+    }
+  </script>
 </body>
 </html>

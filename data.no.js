@@ -95,10 +95,11 @@ window.PLACES_NO = {
     kicker: "Foss",
     distance: "~10 km · 12 min",
     blurb:
-      "Et 90 meter høyt vannteppe og en av de mest fotograferte fossene i Fjord Norge — for fem minutters gange. Parker på Mo ved landbruksskolen, kryss trebrua og følg elva oppover. Du kan gå helt inn i fossrøyken, som er hele poenget; det er også derfor siste stykket er gjørmete og steinene glatte.",
+      "Den alle bør ta seg tid til. Et 90 meter høyt vannteppe i tre trinn, og en av de mest fotograferte fossene i Fjord Norge — for fem minutters gange. Kjør helt opp til gardane på Mo, parker der, kryss trebrua og følg elva oppover. Du kan gå helt inn i fossrøyken, som er hele poenget; det er også derfor siste stykket er gjørmete og steinene glatte.",
     facts: [
-      ["Dit", "E39/Rv5 mot Skei, ~10 km, følg skiltingen ved Moskog. Gratis parkering, så ~500 m til fots."],
-      ["Ta med", "Vanntette sko. Gratis, alltid åpent. Hold deg på stien og unna vannet nedenfor fossen."]
+      ["Dit", "E39/Rv5 mot Skei, ~10 km, følg skiltingen ved Moskog. Kjør helt opp til gardane og landbruksskulen og parker der — gratis — så er det bare noen minutter bort til fossen."],
+      ["Passer for", "Alle. Ingen klatring, ingen billett, barnevogn kommer nesten helt fram, og i regnvær er den enda bedre."],
+      ["Ta med", "Vanntette sko. Alltid åpent. Hold deg på stien og unna vannet nedenfor fossen."]
     ]
   },
 
