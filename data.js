@@ -111,17 +111,18 @@ window.PLACES = [
   },
   {
     id: "kletten",
-    name: "Kletten, Naustdal",
-    kicker: "Short hike & war history",
-    group: "near",
-    minutes: 15,
-    distance: "~13 km · 15 min",
-    maps: "Kletten, Naustdal",
+    name: "Kletten",
+    kicker: "Bunkers & war history",
+    group: "walk",
+    minutes: 0,
+    distance: "~20 min walk · 5 min drive",
+    maps: "Kletten, 6809 Førde",
     blurb:
-      "The steep little hill standing over the village of Naustdal, rising straight out of the mouth of the Nausta river. A short, sharp climb gets you to the western vantage point at 269 m with the fjord, the village and the salmon river below — a big view for a small effort.",
+      "The wooded knoll on the north side of the valley, reached from Hornnesvegen. German bunker remains still sit among the trees, and an information board on site explains what stood here during the occupation and why this spot mattered. Short, free, and the most direct way to put your hand on Førde's war history without driving anywhere.",
     facts: [
-      ["Time", "Roughly 45–60 min up. Summit 281 m."],
-      ["War history", "Naustdal and the fjord mouth carry occupation-era remains and there is local information about the war at the site — the details of the signage are worth checking with the tourist information in Førde before you drive out."]
+      ["Getting there", "Up from Hornnesvegen on the north side of town. Paths lead to the top and the view back over Førde; ordinary shoes are fine."],
+      ["What's there", "Concrete remains in the woods and the sign that tells the story. Treat the concrete as unsafe — look, don't climb inside — and leave anything you find where it lies."],
+      ["Read them together", "Kletten faces Vidsyn and Hafstad across the valley, where the German strongpoint “Bertha” stood. Seen from one, the other explains itself."]
     ],
     links: []
   },
@@ -427,6 +428,25 @@ window.PLACES = [
     facts: [],
     links: []
   },
+  {
+    id: "war-history",
+    name: "The war years in Førde",
+    kicker: "Background",
+    group: "tips",
+    minutes: 0,
+    distance: "Before you go",
+    blurb:
+      "Førde was a garrison town under the German occupation — 500 to 600 soldiers by the end of the war, with the divisional staff for the “Kampavsnitt Førde” sector on the Hafstad side. Two strongpoints held the town. The larger one, “Bertha”, had around 13 barracks, machine-gun and mortar positions, trenches, bunkers and a tunnel complex driven into Hafstadfjellet in 1943, said to have halls and several levels inside. What went on in there stayed classified until 2001.",
+    facts: [
+      ["Built by prisoners", "The road up from Kronborg to Hafstad — still called <b>Burmavegen</b>, after the wartime Burma Road — was built by Soviet prisoners of war alongside German pioneer troops."],
+      ["What is still there", "A great deal has gone to later building work and gravel extraction. Easiest to find: the bunker remains and information board at <b>Kletten</b>, and the ground and road below <b>Vidsyn</b> on the Hafstad side."],
+      ["Ground rules", "These are ruins, not a museum — sharp concrete, open shafts, loose steel. Look, don't climb in, don't dig, and leave anything you find where it lies."]
+    ],
+    links: [
+      ["Burmavegen and “Bertha”", "https://kringom.no/nb/nordfjord/stad/burmavegane-dei-naeraste-burmavegane-ligg-pa-nordfjordeid-og-i-forde"]
+    ]
+  },
+
   {
     id: "driving",
     name: "Driving here",

@@ -103,13 +103,27 @@ window.PLACES_NO = {
   },
 
   kletten: {
-    kicker: "Kort tur og krigshistorie",
-    distance: "~13 km · 15 min",
+    kicker: "Bunkere og krigshistorie",
+    distance: "~20 min å gå · 5 min med bil",
     blurb:
-      "Den bratte lille haugen som står over Naustdal, rett opp fra utløpet av Nausta. En kort og hard stigning gir deg utsiktspunktet i vest på 269 m, med fjorden, bygda og lakseelva under deg — mye utsikt for lite arbeid.",
+      "Den skogkledde knausen på nordsida av dalen, opp fra Hornnesvegen. Restene etter tyske bunkere ligger fortsatt mellom trærne, og et informasjonsskilt på stedet forteller hva som sto her under okkupasjonen og hvorfor akkurat dette punktet betydde noe. Kort, gratis, og den mest direkte måten å ta på Førdes krigshistorie uten å kjøre noe sted.",
     facts: [
-      ["Tid", "Rundt 45–60 min opp. Toppen 281 m."],
-      ["Krigshistorie", "Naustdal og fjordmunningen har spor etter okkupasjonen, og det finnes lokal informasjon om krigen på stedet. Detaljene i skiltingen fikk jeg ikke bekreftet på nett — sjekk gjerne med turistinformasjonen i Førde først."]
+      ["Dit", "Opp fra Hornnesvegen på nordsida av byen. Stier fører til toppen og utsikten tilbake over Førde; vanlige sko holder."],
+      ["Hva som er der", "Betongrester i skogen og skiltet som forteller historien. Regn betongen som utrygg — se, ikke klatre inn — og la ligge det du måtte finne."],
+      ["Les dem sammen", "Kletten ser rett over på Vidsyn og Hafstad, der det tyske støttepunktet «Bertha» lå. Står du på det ene, forklarer det andre seg selv."]
+    ]
+  },
+
+  "war-history": {
+    name: "Krigsårene i Førde",
+    kicker: "Bakgrunn",
+    distance: "Les først",
+    blurb:
+      "Førde var garnisonsby under okkupasjonen — 500 til 600 tyske soldater mot slutten av krigen, med divisjonsstaben for «Kampavsnitt Førde» på Hafstad-sida. To støttepunkt holdt byen. Det største, «Bertha», hadde rundt 13 brakker, maskingevær- og bombekasterstillinger, løpegraver, bunkere og et fjellanlegg sprengt inn i Hafstadfjellet i 1943, med haller og flere plan inne i fjellet. Hva som foregikk der inne var gradert helt til 2001.",
+    facts: [
+      ["Bygd av fanger", "Vegen opp fra Kronborg til Hafstad — fortsatt kalt <b>Burmavegen</b> etter Burmavegen i Asia — ble bygd av sovjetiske krigsfanger sammen med tyske pionersoldater."],
+      ["Hva som står igjen", "Mye har gått med til senere utbygging og masseuttak. Lettest å finne: bunkerrestene og informasjonsskiltet på <b>Kletten</b>, og terrenget og vegen under <b>Vidsyn</b> på Hafstad-sida."],
+      ["Kjøreregler", "Dette er ruiner, ikke museum — skarp betong, åpne sjakter, løst armeringsjern. Se, ikke klatre inn, ikke grav, og la det du finner ligge."]
     ]
   },
 

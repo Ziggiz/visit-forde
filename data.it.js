@@ -103,13 +103,27 @@ window.PLACES_IT = {
   },
 
   kletten: {
-    kicker: "Breve escursione e storia della guerra",
-    distance: "~13 km · 15 min",
+    kicker: "Bunker e storia della guerra",
+    distance: "~20 min a piedi · 5 min in auto",
     blurb:
-      "La collina ripida che domina il paese di Naustdal, che si alza dritta dalla foce del fiume Nausta. Una salita breve e decisa porta al punto panoramico occidentale a 269 m, con il fiordo, il paese e il fiume dei salmoni sotto di voi: un gran panorama per poca fatica.",
+      "Il poggio boscoso sul lato nord della valle, cui si sale da Hornnesvegen. Tra gli alberi ci sono ancora i resti di bunker tedeschi, e un pannello informativo sul posto spiega che cosa sorgeva qui durante l'occupazione e perché questo punto contava. Breve, gratuito, e il modo più diretto per toccare con mano la storia bellica di Førde senza prendere l'auto.",
     facts: [
-      ["Tempo", "Circa 45–60 min di salita. Cima a 281 m."],
-      ["Storia della guerra", "Naustdal e la foce del fiordo conservano resti dell'occupazione e sul posto c'è informazione locale sulla guerra: conviene chiederne i dettagli all'ufficio turistico di Førde prima di partire."]
+      ["Come arrivare", "Si sale da Hornnesvegen, sul lato nord della città. I sentieri portano in cima e alla vista su Førde; bastano scarpe normali."],
+      ["Che cosa si vede", "Resti in cemento nel bosco e il cartello che racconta la storia. Considerate il cemento insicuro — si guarda, non ci si arrampica dentro — e lasciate sul posto qualsiasi cosa troviate."],
+      ["Da leggere insieme", "Kletten guarda Vidsyn e Hafstad dall'altra parte della valle, dove sorgeva il caposaldo tedesco «Bertha». Vista da uno dei due, l'altra sponda si spiega da sé."]
+    ]
+  },
+
+  "war-history": {
+    name: "Førde negli anni della guerra",
+    kicker: "Contesto",
+    distance: "Da leggere prima",
+    blurb:
+      "Sotto l'occupazione tedesca Førde era città di guarnigione: 500-600 soldati alla fine della guerra, con lo stato maggiore divisionale del settore «Kampavsnitt Førde» sul versante di Hafstad. Due capisaldi tenevano la città. Il maggiore, «Bertha», contava una tredicina di baracche, postazioni di mitragliatrici e mortai, trincee, bunker e un complesso di gallerie scavato nell'Hafstadfjellet nel 1943, con — si dice — sale e più livelli all'interno. Che cosa vi si facesse è rimasto segreto fino al 2001.",
+    facts: [
+      ["Costruita dai prigionieri", "La strada che sale da Kronborg a Hafstad — ancora chiamata <b>Burmavegen</b>, come la Strada della Birmania — fu costruita da prigionieri di guerra sovietici insieme a soldati del genio tedeschi."],
+      ["Che cosa resta", "Molto è andato perduto con l'edilizia successiva e le cave di ghiaia. I più facili da trovare: i resti dei bunker e il pannello informativo a <b>Kletten</b>, e il terreno e la strada sotto <b>Vidsyn</b>, sul versante di Hafstad."],
+      ["Regole di base", "Sono rovine, non un museo: cemento tagliente, pozzi aperti, ferri sporgenti. Guardate, non entrate, non scavate, e lasciate sul posto ciò che trovate."]
     ]
   },
 
