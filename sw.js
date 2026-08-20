@@ -1,7 +1,7 @@
 /* Offline cache. Bump CACHE when you deploy content changes — the old cache is
    then dropped on activate and everything is fetched fresh. */
 
-const CACHE = "visit-forde-v1";
+const CACHE = "visit-forde-v2";
 
 const SHELL = [
   "./",

@@ -24,6 +24,9 @@ window.UI = {
     details: "Practical details",
     maps: "Open in Maps ↗",
     empty: "Nothing matches that. Try “waterfall”, “glacier” or “dinner”.",
+    emptySaved: "Nothing saved yet. Tap the star on anything you want to keep for later — it stays on this phone.",
+    save: "Save to your list",
+    unsave: "Remove from your list",
     filters: {
       all: "Everything",
       walk: "On foot",
@@ -31,7 +34,8 @@ window.UI = {
       day: "40–60 min",
       far: "Day trip",
       food: "Eat",
-      tips: "Good to know"
+      tips: "Good to know",
+      saved: "Saved"
     },
     groups: {
       walk: "On foot from the centre",
@@ -63,6 +67,9 @@ window.UI = {
     details: "Dettagli pratici",
     maps: "Apri in Maps ↗",
     empty: "Nessun risultato. Provate con «cascata», «ghiacciaio» o «cena».",
+    emptySaved: "Non avete ancora salvato niente. Toccate la stella su ciò che volete tenere da parte — resta su questo telefono.",
+    save: "Salva nella tua lista",
+    unsave: "Togli dalla tua lista",
     filters: {
       all: "Tutto",
       walk: "A piedi",
@@ -70,7 +77,8 @@ window.UI = {
       day: "40–60 min",
       far: "Gita di un giorno",
       food: "Mangiare",
-      tips: "Buono a sapersi"
+      tips: "Buono a sapersi",
+      saved: "Salvati"
     },
     groups: {
       walk: "A piedi dal centro",
@@ -102,6 +110,9 @@ window.UI = {
     details: "Praktisk informasjon",
     maps: "Åpne i Maps ↗",
     empty: "Ingen treff. Prøv «foss», «bre» eller «middag».",
+    emptySaved: "Ingenting lagret ennå. Trykk på stjerna på det du vil ta vare på — det blir liggende på denne telefonen.",
+    save: "Lagre i lista",
+    unsave: "Fjern fra lista",
     filters: {
       all: "Alt",
       walk: "Til fots",
@@ -109,7 +120,8 @@ window.UI = {
       day: "40–60 min",
       far: "Dagstur",
       food: "Spise",
-      tips: "Godt å vite"
+      tips: "Godt å vite",
+      saved: "Lagret"
     },
     groups: {
       walk: "Til fots fra sentrum",

@@ -9,6 +9,7 @@ A small static web app for English-speaking visitors staying in Førde, Sunnfjor
 - Filter by distance: on foot · under 20 min · 40–60 min · full-day trip · food · practical
 - Every entry has an "Open in Maps" link that works on a phone
 - Light and dark theme follow the phone's setting
+- **Save what you like** — the star on any card keeps it in a "Saved" shortlist, stored in the browser on that phone. No account, nothing sent anywhere
 - **Add to home screen** — installs as an app, and a service worker keeps a full
   offline copy, so it still works in the tunnels and up the valleys where there is no signal
 - No build step, no dependencies, no tracking
